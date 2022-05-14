@@ -8,7 +8,8 @@
     name: 'TipoDeEvaluacionn',
 
     data: () => ({
-      
+     radios: null,
+      items: ['Foo', 'Bar', 'Fizz', 'Buzz'],
     }),
   }
 </script>

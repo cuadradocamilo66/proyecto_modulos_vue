@@ -26,6 +26,13 @@ const routes = [
     }
   },
   {
+    path: '/evaluacion/tipodeevaluacion/opcionmultiple',
+    name: 'opcionmultiple',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/OpcionMultipleView.vue')
+    }
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting

@@ -2,6 +2,39 @@
   <v-container>
         <h1></h1>
         <br>
+         <v-row
+          class="pt-10"
+    align="center"
+    justify="space-around"
+  >
+    <v-btn rounded
+    color="blanco">
+      Inicio
+    </v-btn>
+
+    <v-btn rounded
+    color="blanco"> 
+      Contenidos
+    </v-btn>
+
+    <v-btn rounded 
+    color="blanco">
+      Actividades
+    </v-btn>
+
+    <v-btn
+      rounded
+      color="verde"
+    >
+      Evaluación
+    </v-btn>
+
+    <v-btn
+      rounded 
+      color="blanco">
+      Bibliografía
+    </v-btn>
+  </v-row>
  
 
 
