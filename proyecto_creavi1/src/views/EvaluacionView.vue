@@ -1,6 +1,7 @@
 <template>
   <v-container>
-        <h1>EVALUACION MODULO</h1>
+        <h1></h1>
+        <br>
  <v-row
     align="center"
     justify="space-around"
@@ -35,23 +36,56 @@
   </v-row>
 
 
+        <h1 class="letra-titulo"
 
-         <v-col cols="12">
-             <v-img
-                :src="require('../assets/learning.svg')"
-                position="center"
-                class="my-4"
-                 width="400"
-             />
+            style= "font-size:100px; margin-top:120px;
+                    margin-left:60px;
+                    color: #4D4D4D;
+                    font-family: 'Roboto', sans-serif;">Creavi
+        </h1>
+
+        <label 
+              style= "font-size:30px; margin-top:-100px;
+                    margin-left:60px;
+                    color: #4D4D4D;
+                    font-family: 'Roboto', sans-serif;">
+            Crear evaluación para tu objeto 
+        </label>
+        <br>
+        <label
+            style= "font-size:30px; 
+                    margin-left:60px;
+                    color: #4D4D4D;
+                    font-family: 'Roboto', sans-serif;">
+            virtual de aprendizaje
+        </label>
+        <br>
+        <v-btn 
+        style="margin-left:60px"
+            rounded
+            color="verde"
+        >
+            Crear
+        </v-btn>
+      
+                <v-img class="imagen1"
+                    style="margin-left: 650px; margin-top:-240px"
+                   :src="require('../assets/learning.svg')"
+                   max-height="500"
+                   max-width="500">
+                 
+                </v-img>
+                   
             <v-img
+                 style=" margin-top:-150px"
                 :src="require('../assets/wave.svg')"
-                class="my-4"
-                contain
+            
+            
                  max-width="1250"
                  max-height="250"
              />
 
-        </v-col>
+    
     </v-container>
 
 </template>

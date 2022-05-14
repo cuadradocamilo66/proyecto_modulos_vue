@@ -19,7 +19,8 @@ export default new Vuetify({
         success: '#4CAF50',
         warning: '#FFC107',
         verde: '#96D337',
-        blanco: '#FBFBFB'
+        blanco: '#FBFBFB',
+        color_letra: '#4D4D4D'
       },
     },
   },
