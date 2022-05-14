@@ -19,6 +19,13 @@ const routes = [
     }
   },
   {
+    path: '/evaluacion/tipodeevaluacion',
+    name: 'tipodeevaluacion',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/TipoDeEvaluacionView.vue')
+    }
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting
