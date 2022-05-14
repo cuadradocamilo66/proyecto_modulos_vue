@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -9,6 +10,13 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/evaluacion',
+    name: 'evaluacionn',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/EvaluacionView.vue')
+    }
   },
   {
     path: '/about',
