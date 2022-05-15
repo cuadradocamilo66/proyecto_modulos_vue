@@ -33,6 +33,13 @@ const routes = [
     }
   },
   {
+    path: '/evaluacion/tipodeevaluacion/falsoyverdadero',
+    name: 'falsoyverdadero',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/FalsoYVerdaderoView.vue')
+    }
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting
