@@ -30,6 +30,7 @@
                     font-family: 'Roboto', sans-serif;">
                 Seleccione las palabras a ocultar:
           </h2>
+        
       </div>
 
        <div style="display:flex; margin-top:240px">

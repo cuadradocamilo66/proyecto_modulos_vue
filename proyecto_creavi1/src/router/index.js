@@ -47,6 +47,13 @@ const routes = [
     }
   },
   {
+    path: '/evaluacion/tipodeevaluacion/unirconlineas',
+    name: 'unirconlineas',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/UnirConLineasView.vue')
+    }
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting
