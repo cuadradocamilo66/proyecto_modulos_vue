@@ -40,6 +40,13 @@ const routes = [
     }
   },
   {
+    path: '/evaluacion/tipodeevaluacion/completarenunciado',
+    name: 'completarenunciado',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/CompletarEnunciadoView.vue')
+    }
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting

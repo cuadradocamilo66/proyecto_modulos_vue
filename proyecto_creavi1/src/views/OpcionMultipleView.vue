@@ -2,7 +2,7 @@
   <v-container
         color: verde
         >
-<div style="margin-top:0px">
+  <div style="margin-top:0px">
       <h2  style= "font-size:40px;
                     margin-left:60px;
                     color: #FFFFFF;
@@ -15,7 +15,7 @@
                     font-family: 'Roboto', sans-serif;">
          Escriba la pregunta y digite sus respuestas
         </h2>
-</div>
+  </div>
           <div  style= "margin-left:100px; margin-top: 50px;">
                 <v-textarea xs4
                  style="width:500px "
