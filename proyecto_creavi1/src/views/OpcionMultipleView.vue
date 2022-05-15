@@ -50,6 +50,101 @@
     </div>
   <br>
 
+
+   <div style="display:flex">
+        <div  style= "margin-left:100px; margin-top: -40px; ">
+            <v-text-field
+                style= "width:500px"
+                label="Respuesta B"
+                 placeholder="Escriba"
+                 solo
+                rounded
+                dense >
+             </v-text-field>
+          </div>
+
+    <div style="margin-top:-50px; margin-left: 20px;">
+        <v-select
+        style="width:120px"
+          :items="items"
+          label="Incorrecto"
+          solo
+          outlined
+        ></v-select>
+    </div>
+    </div>
+  <br>
+     <div style="display:flex">
+        <div  style= "margin-left:100px; margin-top: -40px; ">
+            <v-text-field
+                style= "width:500px"
+                label="Respuesta C"
+                 placeholder="Escriba"
+                 solo
+                rounded
+                dense >
+             </v-text-field>
+          </div>
+
+    <div style="margin-top:-50px; margin-left: 20px;">
+        <v-select
+        style="width:120px"
+          :items="items"
+          label="Incorrecto"
+          solo
+          outlined
+        ></v-select>
+    </div>
+    </div>
+    <br>
+     <div style="display:flex">
+        <div  style= "margin-left:100px; margin-top: -40px; ">
+            <v-text-field
+                style= "width:500px"
+                label="Respuesta D"
+                 placeholder="Escriba"
+                 solo
+                rounded
+                dense >
+             </v-text-field>
+          </div>
+
+    <div style="margin-top:-50px; margin-left: 20px;">
+        <v-select
+        style="width:120px"
+          :items="items"
+          label="Incorrecto"
+          solo
+          outlined
+        ></v-select>
+    </div>
+    </div>
+    <br>
+    <div style="display:flex">
+
+        <div  style= "margin-left:100px; margin-top: 0px; ">
+            <v-btn
+              rounded 
+              color="error">
+              Atrás
+            </v-btn>
+        </div>
+         <div  style= "margin-left:300px; margin-top: 0px; ">
+            <v-btn
+              rounded 
+              color="primary">
+              Finalizar
+            </v-btn>
+        </div>
+        <div  style= "margin-left:300px; margin-top: 0px; ">
+            <v-btn
+              rounded 
+              color="warning">
+              Siguiente
+            </v-btn>
+        </div>
+    </div>
+
         
       
 
